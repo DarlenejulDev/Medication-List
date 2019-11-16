@@ -1,0 +1,22 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+ul{
+  list-style: none;
+}
+.square{
+  height: 400px;
+  width: 400px;
+  border: 5px solid green;
+}
+li{
+  margin: 0 0 8px 0;
+  font-size: 30px;
+}
+li::first-letter {
+  text-transform: capitalize;
+}
